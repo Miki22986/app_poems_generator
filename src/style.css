@@ -1,0 +1,15 @@
+.container{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header{
+    background-image: url("../img/mrika-selimi-poem.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1, #footer-text{
+    background-color: rgba(255, 255, 255, 0.5);
+}
