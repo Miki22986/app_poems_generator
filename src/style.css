@@ -10,23 +10,27 @@
     padding: 10px;
     border: 5px double rgb(43, 3, 79);
     margin: 10px auto;
-    background-color: rgb(246, 230, 232);
-}
-
+    background-image: url(../img/megs-harrison-QS3V8Nd3z40-unsplash.png);
+    background-size: cover;
+} 
+/*header*/
 header{
     text-align: center;
-    background: linear-gradient(180deg, rgb(78, 1, 55) 10%, rgb(246, 230, 232) 90%);
     border-radius: 10px;
     margin-bottom: 30px;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
     padding: 10px;
-    color: white;
 }
 p{
     text-align: center;
     font-style: italic;
+    font-size: 20px;
+}
+h1, p {
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    margin-top: 15px;
 }
 /*main*/
 main{
@@ -40,37 +44,40 @@ form{
 }
 .form_input{
     display: block;
-    border:  1px solid rgb(78, 1, 55);
-    height: 30px;
+    border:  1px solid rgb(78, 1, 1);
+    height: 40px;
     border-radius: 10px;
 }
 #text_form{
-    width: 450px;
+    width: 70%;
+}
+#button_form{
+    width: 25%;
+}
+#text_input, #button{
+    width: 100%;
 }
 #button{
-    width: 90px;
-    color: rgb(78, 1, 55);
+    color: rgb(78, 1, 1);
     font-size: 20px;
     background-color: white;
 }
 #poem{
     background-color: rgba(255, 255, 255, 0.6);
-    margin: 10px;
-    padding: 10px;
+    margin: 20px 10px;
+    padding: 25px;
     border-radius: 20px;
 }
 /*footer*/
 footer{
-    background: linear-gradient(180deg,rgb(246, 230, 232) 20%, rgb(78, 1, 55) 100%);
     border-radius: 10px;
     padding: 10px;
 }
 a{
-    color: rgb(248, 191, 231); 
+    color: rgb(62, 2, 5); 
     text-decoration: none;
 }
 #footer-text{
     text-align: center;
-    color: white;
     margin-top: 10px;
 }
