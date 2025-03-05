@@ -1,6 +1,8 @@
 function generatePoem(event){
     event.preventDefault();
-    alert("help");
+    let text_imput = document.querySelector("#text_input");
+    let poem = document.querySelector("#poem");
+    poem.innerHTML = text_imput.value;
 
 }
 
