@@ -45,7 +45,7 @@ form{
 }
 .form_input{
     display: block;
-    border:  2px solid rgb(118, 10, 10);
+    border:  1px solid rgb(118, 10, 10);
     height: 40px;
     border-radius: 20px;
 }
