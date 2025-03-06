@@ -17,7 +17,7 @@ function call_ai(){
         axios.get(Ai_link).then(write_poem);
     } else {
         let poem_space =document.querySelector("#poem");
-        poem_space.innerHTML = "You must submit a word";
+        poem_space.innerHTML = "<p>You must submit a word</p>";
     }
 }
 
