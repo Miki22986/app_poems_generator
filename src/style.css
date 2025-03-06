@@ -49,6 +49,21 @@ form{
     height: 40px;
     border-radius: 20px;
 }
+/*https://www.simogrima.com/css/ruotare-immagini-attraverso-i-css-e-jquery/*/
+.rotate{
+    animation: rotateEmoji 1s linear infinite;
+    display: inline-block;
+}
+
+@keyframes rotateEmoji {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 #text_form{
     width: 70%;
 }
